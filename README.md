@@ -1,2 +1,3 @@
-# HF-1.st-Semester
-HF dipl. Informatik | Repository for 1st. Semester
+# :ticket: HF dip. IT | 1st. Semester
+
+<img src='img/banner.png' alt="banner"></img>
