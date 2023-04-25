@@ -4,7 +4,7 @@
 
 ## :writing_hand: What's the purpose of this?
 
-Meanwhile having your own project under your responsibility and drive it is every time a new challenge for everybody. During the further education is was clear that at the end of the semester I need to prove anyhow my knowledge to the lecturer of the University, right? Well here I am and [here](docs/clarification.md) you can see the clarification of my work.
+Meanwhile, having your own project under your responsibility and drive is always a new challenge for everybody. During the further education, it was clear that at the end of the semester I needed to prove anyhow my knowledge to the lecturer of the university, right? Well here I am and [here](docs/clarification.md) you can see the clarification of my work for the first semester.
 
 <br>
 
