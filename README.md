@@ -15,7 +15,7 @@ Meanwhile having your own project under your responsibility and drive it is ever
 
 ## :exclamation: Project board's
 
-- [Issue's Table](https://github.com/users/fo-b/projects/2/views/1)
+- [Issues Table](https://github.com/users/fo-b/projects/2/views/1)
 
 - [Kanban Board](https://github.com/users/fo-b/projects/2/views/2)
 
@@ -36,7 +36,7 @@ Meanwhile having your own project under your responsibility and drive it is ever
 | 2nd sprint           |               | 14.06.2023 |
 | open tasks           |  15.06.2023   | 12.07.2023 |
 | prepare presentation |               | 12.07.2023 |
-| 3rd sprint           | 30.06.2023    | 12.07.2023 |
+| 3rd sprint           |  30.06.2023   | 12.07.2023 |
 
 <br>
 
