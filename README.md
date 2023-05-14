@@ -1,5 +1,7 @@
 # :ticket: HF dipl. IT | 1st. Semester
 
+> Go [further](/docs/clarification.md)
+
 ![Banner](/img/banner.png)
 
 ## :writing_hand: What's the purpose of this?
@@ -36,7 +38,7 @@ Meanwhile, having your own project under your responsibility and drive is always
 | 2nd sprint           |               | 14.06.2023 |
 | open tasks           |  15.06.2023   | 12.07.2023 |
 | prepare presentation |               | 12.07.2023 |
-| 3rd sprint           |  30.06.2023   | 12.07.2023 |
+| 3rd sprinss           |  30.06.2023   | 12.07.2023 |
 
 <br>
 
@@ -45,3 +47,5 @@ Meanwhile, having your own project under your responsibility and drive is always
 [![Fabio](https://github.com/fo-b.png?size=100)](https://github.com/fo-b)
 ---
 [Fabio](http://fabiobeti.ch)
+
+> Jump [up](#🎫-hf-dipl-it--1st-semester)
