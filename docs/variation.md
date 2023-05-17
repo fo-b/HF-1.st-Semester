@@ -32,3 +32,5 @@ Variant three includes the following, everything will be done in Microsoft Azure
 ![decision matrix](/img/decision_matrix.png)
 
 As we can see in the decision matrix, I recommend implementing Variant 2. It offers a balanced load-performance ratio and caters precisely to my needs.
+
+> Jump [up](#🎫-hf-dipl-it--1st-semester)
