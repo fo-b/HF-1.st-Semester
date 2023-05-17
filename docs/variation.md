@@ -2,7 +2,7 @@
 
 > Go [back](/docs/planning.md)
 >
-> Go [further]()
+> Go [further](/docs/implementation.md)
 
 ![Banner](/img/banner3.png)
 
