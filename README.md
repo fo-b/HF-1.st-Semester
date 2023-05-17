@@ -38,7 +38,7 @@ Meanwhile, having your own project under your responsibility and drive is always
 | 2nd sprint           |               | 14.06.2023 |
 | open tasks           |  15.06.2023   | 12.07.2023 |
 | prepare presentation |               | 12.07.2023 |
-| 3rd sprinss           |  30.06.2023   | 12.07.2023 |
+| 3rd sprinss          |  30.06.2023   | 12.07.2023 |
 
 <br>
 
