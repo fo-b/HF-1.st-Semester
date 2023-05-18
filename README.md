@@ -1,6 +1,6 @@
 # :ticket: HF dipl. IT | 1st. Semester
 
-> Go [further](/docs/clarification.md)
+> Go [further](/pages/clarification.md)
 
 ![Banner](/img/banner.png)
 
