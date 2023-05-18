@@ -1,8 +1,8 @@
 # :ticket: HF dipl. IT | 1st. Semester
 
-> Go [back](/docs/planning.md)
+> Go [back](/pages/planning.md)
 >
-> Go [further](/docs/implementation.md)
+> Go [further](/pages/implementation.md)
 
 ![Banner](/img/banner3.png)
 

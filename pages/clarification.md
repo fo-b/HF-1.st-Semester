@@ -2,7 +2,7 @@
 
 > Go [back](/README.md)
 >
-> Go [further](/docs/planning.md)
+> Go [further](/pages/planning.md)
 
 ![Banner](/img/banner1.png)
 

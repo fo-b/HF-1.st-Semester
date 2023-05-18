@@ -10,7 +10,7 @@ Meanwhile, having your own project under your responsibility and drive is always
 
 <br>
 
-> Here the direct [link](docs/clarification.md) for those who doesn't like to read :smirk:
+> Here the direct [link](pages/clarification.md) for those who doesn't like to read :smirk:
 
 
 <br>
