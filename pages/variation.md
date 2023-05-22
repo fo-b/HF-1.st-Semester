@@ -33,4 +33,14 @@ Variant three includes the following, everything will be done in Microsoft Azure
 
 As we can see in the decision matrix, I recommend implementing Variant 2. It offers a balanced load-performance ratio and caters precisely to my needs.
 
+Since I now know which variation I need to implement and develop, I can now fully concentrate on the whole manual interaction and learning process to achieve the goals.
+
+<br>
+
+See [here](/pages/implementation.md) for the ongoing process
+
+<img src="../img/loading.gif" width="280" height="80" />
+
+<br>
+
 > Jump [up](#🎫-hf-dipl-it--1st-semester)
