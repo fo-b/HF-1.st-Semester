@@ -16,7 +16,7 @@ In this section, I will try to provide every single step that I have implemented
 
 My main work environment was locally on my MacBook, where I tested and developed the entire structure. Multipass was used to quickly create VMs and check if my cloud-config file was written correctly. But at the end, the real machine is running on the cloud servers at TBZ built with maas.IO.
 
-You can track the overall progress of the cloud-config file [here](/docs)
+You can track the overall progress of the cloud-config file [here](/pages/cloud-init_dev.md)
 
 <br>
 
