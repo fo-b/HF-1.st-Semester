@@ -70,7 +70,7 @@ And after a few minutes (6min) our vm was ready to go for the further installtio
 
 ![Compose5](/img/compose5.png)
 
-### How to deploy the OS
+### How to deploy the OS and cloud-init
 
 ![Compose6](/img/compose6.png)
 
