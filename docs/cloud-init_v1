@@ -1,0 +1,23 @@
+sudo apt update -y
+
+sudo apt upgrade -y
+
+sudo apt install python-setuptools -y
+
+sudo apt install python3-pip -y
+
+sudo pip3 install ansible
+
+sudo apt install docker docker.io -y
+
+sudo pip3 install docker-compose
+
+sudo usermod -aG docker ubuntu
+
+sudo git clone -b 17.0.1 https://github.com/ansible/awx.git
+
+cd awx/installer
+
+sudo nano inventory (sed)
+
+ansible-playbook -i inventory install.yml

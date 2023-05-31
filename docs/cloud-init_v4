@@ -1,0 +1,14 @@
+#cloud-config
+
+write_files:
+- path: /tmp/key
+  permissions: '0600'
+  content: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    my key
+    -----END OPENSSH PRIVATE KEY-----
+
+runcmd:
+  - export GIT_SSH_COMMAND="ssh -i /tmp/key -o StrictHostKeyChecking=no"
+  - git clone git@github.com:fo-b/bash.git /bash
+  - bash /bash/awx/install.sh

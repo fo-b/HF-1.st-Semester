@@ -1,0 +1,24 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+
+groups:
+  - docker
+
+system_info:
+  default_user:
+    groups: [docker]
+
+packages:
+  - git
+  - python3-pip
+  - docker.io
+  - ansible
+
+runcmd:
+  - sudo apt install python-setuptools
+  - sudo pip3 install docker-compose
+  - git clone -b 17.0.1 https://github.com/ansible/awx.git
+  - sudo usermod -aG docker ubuntu
+  - sed -i '/admin_password=/s/^# //g' /awx/installer/inventory
+  - ansible-playbook -i /awx/installer/inventory /awx/installer/install.yml
