@@ -51,5 +51,31 @@ Composing a VM refers to the process of creating and configuring a virtual machi
 To compose a VM I can simply go to my KVM, click on the green "Take action" button, and click on compose.
 ![Compose](/img/compose.png)
 
-The next step would be to fill out the missing information, and in our case, I filled it out like this:
+<br>
+
+To compose the vm successfully in maas.IO the KVM needs some more information to complete the action. And in our case, I filled it out like this:
+
+
 ![Compose2](/img/compose2.png)
+![Compose3](/img/compose3.png)
+As you can see I could also add tags to disk for the specific vm but in our case we don't need it.
+
+---
+
+After clicking on the "Compose machine" button in the background it will compose our vm with our needs and definition. And you can see the status of the process also. 
+
+![Compose4](/img/compose4.png)
+
+And after a few minutes (6min) our vm was ready to go for the further installtion of the OS.
+
+![Compose5](/img/compose5.png)
+
+### How to deploy the OS
+
+![Compose6](/img/compose6.png)
+
+You can go under the "take action" button and finally go to "deploy" to make the actual deployment of the vm itself.
+
+![Deployment](/img/awx_deployment_1.png)
+
+As you can see there, I can now paste in or upload my necessary cloud-init file. [Here](/pages/cloud-init_dev.md) you will find the development of the used init file.
