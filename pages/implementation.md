@@ -70,6 +70,8 @@ And after a few minutes (6min) our vm was ready to go for the further installtio
 
 ![Compose5](/img/compose5.png)
 
+<br>
+
 ### How to deploy the OS and cloud-init
 
 ![Compose6](/img/compose6.png)
@@ -78,4 +80,24 @@ You can go under the "take action" button and finally go to "deploy" to make the
 
 ![Deployment](/img/awx_deployment_1.png)
 
-As you can see there, I can now paste in or upload my necessary cloud-init file. [Here](/pages/cloud-init_dev.md) you will find the development of the used init file.
+As you can see there, I can now paste in or upload my necessary cloud-init file.
+
+[Here](/pages/cloud-init_dev.md) you will find the development of the used init file.
+
+<br>
+
+### Before the paste in the cloud-init
+
+Firstly I have run this bash [script](/docs/createkey.sh) which is creating a new tmp SSH Key for my GitHub profile so the vm is able to clone my repository sucessfully. Creation itself is made on my local nachine and it will make a API call to GitHub and upload it to my profile. After the API call it will manipulate the file and at the end it will print it out. Then it will sleep almost 6min to be sure that maas has already loading everything he needs to run the vm sucessfully. After the 6min the script is calling another [script](/docs/rmssh.sh) which is deleting the SSH Key instantly from my GitHub profile
+
+---
+
+### During & After paste in the cloud-init
+
+[Watch](/videos/createkey.mov) what happens if the script runs!
+
+And here you can see what happens if I would paste the cloud-init to create the vm
+
+[Watch](/videos/createvm.mov) how I did it Step by Step and how I could login on the Ansible AWX Panel
+
+Here you can find the whole [cloud-init-output.log](/docs/cloud-init-output.log) file where you can see and confirm that the whole installation of Ansible AWX was sucessfully!
