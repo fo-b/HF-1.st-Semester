@@ -98,6 +98,10 @@ Firstly I have run this bash [script](/docs/createkey.sh) which is creating a ne
 
 And here you can see what happens if I would paste the cloud-init to create the vm
 
+During the whole process I even receive a mail from GitHub as information and confirmation that a new key was added:
+
+![Mail](/img/github_mail.png)
+
 [Watch](/videos/createvm.mov) how I did it Step by Step and how I could login on the Ansible AWX Panel
 
 Here you can find the whole [cloud-init-output.log](/docs/cloud-init-output.log) file where you can see and confirm that the whole installation of Ansible AWX was sucessfully!
