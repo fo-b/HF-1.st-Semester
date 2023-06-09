@@ -105,3 +105,70 @@ During the whole process I even receive a mail from GitHub as information and co
 [Watch](/videos/createvm.mov) how I did it Step by Step and how I could login on the Ansible AWX Panel
 
 Here you can find the whole [cloud-init-output.log](/docs/cloud-init-output.log) file where you can see and confirm that the whole installation of Ansible AWX was sucessfully!
+
+
+### Login into AWX GUI
+
+AWX is avaiable under the internal IP 10.0.32.5 address or even with the hostname http://awk-55
+
+![AWX login](/img/awk_login.png)
+
+#### Creating Organization
+
+First thing that we need to do is to create our new Organization with a nice name and short description and I did it like so
+
+GUI:
+
+![Organization_1](/img/org_1.png)
+![Organization_2](/img/org_2.png)
+
+CLI:
+
+not yet done
+
+
+#### Building Inventory
+
+![Inventory_1](/img/inv_1.png)
+![Inventory_2](/img/inv_2.png)
+
+#### Set credentials
+
+![Credentials_1](/img/crendential_1.png)
+![Credentials_2](/img/crendential_2.png)
+![Credentials_3](/img/crendential_3.png)
+
+#### Create Project
+![Project_1](/img/project_1.png)
+![Project_2](/img/project_2.png)
+![Project_3](/img/project_3.png)
+
+#### Define job templates
+
+![Template_1](/img/template_1.png)
+![Template_2](/img/template_2.png)
+
+
+### Create EC2 instance
+
+To be able to create a new EC2 instance inside of the AWS Academy I need to login to the web portal and choose the correct course. After choosing the correct course I can easily start my own lab in a few minutes.
+
+![AWS_Academy_1](/img/aws_1.png)
+
+Under EC2 I can very fast deploy a empty EC2 instance with my desired name and as OS I choose Ubuntu, because I only have tested it with it. As Key-pair I choose my earlier created key, which is already located locally on my MacBook. Also the same for the security group, which was created earlier. In the already created security group are the following ports open:
+
+![AWS_security_1](/img/sec_grp.png)
+
+After a few minutes the ealier created vm should be done like mien here:
+
+![AWS_host_1](/img/aws_host.png)
+
+At this point I can copy the public IP from the vm and create back on AWX my hosts entry
+
+![Host_1](/img/host_1.png)
+![Host_2](/img/host_2.png)
+
+### Run the template job
+
+![Run_1](/img/run_1.png)
+![Run_2](/img/run_2.png)
