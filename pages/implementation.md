@@ -2,7 +2,7 @@
 
 > Go [back](/pages/variation.md)
 >
-> Go [further](/pages/implementation.md)
+> Go [further](/pages/testing.md)
 
 ![Banner](/img/banner4.png)
 
