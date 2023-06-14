@@ -39,8 +39,78 @@ The primary objective of this project was to deploy and configure AWX, ensuring 
 -   Set up user accounts and define user roles
 -   Implement access controls and permissions based on user roles
 <br>
-<br>
+
 
 ### Completion Summary:
 
 I am pleased to report that all the project goals have been successfully achieved. The implementation of AWX has proven to be highly effective, enabling me to streamline configuration management, automate repetitive tasks, and improve my overall operational efficiency.
+
+<br>
+
+## Mandatory Test Use cases
+
+### Is AWX installed sucessfully?
+
+- [ ] NO
+
+- [x] YES - See output from the [cloud-init-output.log](/docs/cloud-init-output.log) file
+
+<br>
+
+### Is AWX reachibel over IP / DNS?
+
+- [ ] NO
+
+- [x] YES
+
+<br>
+
+### Was a solid Organization craeted in AWX?
+
+- [ ] NO
+
+- [x] YES - FO-B
+
+<br>
+
+### Was a Inventory created in AWX?
+
+- [ ] NO
+
+- [x] YES - My Inventory 
+
+<br>
+
+### Was a Project created in AWX?
+
+- [ ] NO
+
+- [x] YES - GitHub Repository
+
+<br>
+
+### Where credentials created for GitHub and SSH key for EC2 instances?
+
+- [ ] NO
+
+- [x] YES - GitHub Deploy Key & EC2 SSH Key
+
+<br>
+
+### Was a template created for a job?
+
+- [ ] NO
+
+- [x] YES - install nginx
+
+<br>
+
+
+### Was a host created inside groups?
+
+- [ ] NO
+
+- [x] YES - Inside my main inventory I created two groups named "webserver" and "ec2_webserver". Under Hosts itselfe I created the host with the name "ec2host".
+
+
+### Was the deployment of the job successfully?
