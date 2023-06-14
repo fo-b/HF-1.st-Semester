@@ -286,6 +286,5 @@ AWX CLI:
 ```
 awx job_templates launch 22 -f human
 ```
-<br>
 
 > Jump [up](#🎫-hf-dipl-it--1st-semester)
