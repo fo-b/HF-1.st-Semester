@@ -65,6 +65,19 @@ I am pleased to report that all the project goals have been successfully achieve
 
 - [x] YES
 
+![ping1](/img/ping_awx_hostname.png)
+![ping2](/img/ping_awx_ip.png)
+
+<br>
+
+### Can I login successfully?
+
+- [ ] NO
+
+- [x] YES
+
+![login](/img/awx_successfully_login.png)
+
 <br>
 
 ### Was a solid Organization craeted in AWX?
@@ -72,6 +85,8 @@ I am pleased to report that all the project goals have been successfully achieve
 - [ ] NO
 
 - [x] YES - FO-B
+
+![organization](/img/awx_organization.png)
 
 <br>
 
@@ -81,6 +96,8 @@ I am pleased to report that all the project goals have been successfully achieve
 
 - [x] YES - My Inventory 
 
+![inventory](/img/awx_inventories.png)
+
 <br>
 
 ### Was a Project created in AWX?
@@ -88,6 +105,8 @@ I am pleased to report that all the project goals have been successfully achieve
 - [ ] NO
 
 - [x] YES - GitHub Repository
+
+![project](/img/awx_project.png)
 
 <br>
 
@@ -97,6 +116,8 @@ I am pleased to report that all the project goals have been successfully achieve
 
 - [x] YES - GitHub Deploy Key & EC2 SSH Key
 
+![credentials](/img/awx_credentials.png)
+
 <br>
 
 ### Was a template created for a job?
@@ -104,6 +125,8 @@ I am pleased to report that all the project goals have been successfully achieve
 - [ ] NO
 
 - [x] YES - install nginx
+
+![template](/img/awx_template.png)
 
 <br>
 
@@ -113,6 +136,9 @@ I am pleased to report that all the project goals have been successfully achieve
 
 - [x] YES - Inside my main inventory I created two groups named "webserver" and "ec2_webserver". Under Hosts itselfe I created the host with the name "ec2host"
 
+![host](/img/awx_hosts.png)
+![host](/img/awx_hosts2.png)
+
 <br>
 
 ### Was the deployment of the job successfully?
@@ -120,6 +146,9 @@ I am pleased to report that all the project goals have been successfully achieve
 - [ ] NO
 
 - [x] YES - Machine could install nginx and is aviable under the IP / DNS
+
+![job](/img/awx_job.png)
+![ec2](/img/awx_ec2.png)
 
 </details>
 
