@@ -49,6 +49,8 @@ I am pleased to report that all the project goals have been successfully achieve
 
 ## Mandatory Test Use cases
 
+<details><summary>See all use cases</summary>
+
 ### Is AWX installed sucessfully?
 
 - [ ] NO
@@ -105,12 +107,19 @@ I am pleased to report that all the project goals have been successfully achieve
 
 <br>
 
-
 ### Was a host created inside groups?
 
 - [ ] NO
 
-- [x] YES - Inside my main inventory I created two groups named "webserver" and "ec2_webserver". Under Hosts itselfe I created the host with the name "ec2host".
+- [x] YES - Inside my main inventory I created two groups named "webserver" and "ec2_webserver". Under Hosts itselfe I created the host with the name "ec2host"
 
+<br>
 
 ### Was the deployment of the job successfully?
+
+- [ ] NO
+
+- [x] YES - Machine could install nginx and is aviable under the IP / DNS
+
+</details>
+
