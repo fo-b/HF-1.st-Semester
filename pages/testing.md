@@ -2,7 +2,7 @@
 
 > Go [back](/pages/implementation.md)
 >
-> Go [further](/pages/testing.md)
+> Go [further](/pages/report.md)
 
 ![Banner](/img/banner5.png)
 
@@ -151,5 +151,7 @@ I am pleased to report that all the project goals have been successfully achieve
 ![ec2](/img/awx_ec2.png)
 
 </details>
+
+Check out the final report of the entire semester's work here.
 
 <br>
