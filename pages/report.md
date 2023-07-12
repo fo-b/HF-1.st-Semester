@@ -55,7 +55,11 @@ The primary objectives of the project were as follows:
 
 The installation and setup of AWX on the maas.io private cloud were completed successfully, yielding the following achievements and highlights:
 
-- 
+- fully automated tmp key creation
+- GitHub API integration
+- AWS API, CLI integration
+- AWX CLI integration
+
 
 ## Smooth Integration
 
